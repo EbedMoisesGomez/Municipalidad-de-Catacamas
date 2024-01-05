@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: rgb(102, 102, 102);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+section {
+    margin: 15px;
+}
+
+section div h1 {
+    font-size: 1.35rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+section div p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    color: rgb(102, 102, 102);
+    font-size: .8rem;
+}
+
+section div div {
+    border-radius: 8px;
+    grid-template-columns: 1fr;
+    background-image: url(../assets/grupoJovenes.jpg);
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
